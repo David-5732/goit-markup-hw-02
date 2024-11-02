@@ -110,14 +110,7 @@ h1 {
   letter-spacing: 0.02em;
   color: #434455;
 }
-h2 {
-  font-weight: 700;
 
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-  text-transform: capitalize;
-}
 /* 3 section */
 .section-third {
   background-color: #f4f4fd;
@@ -126,6 +119,11 @@ h2 {
 .title-third-section {
   font-size: 36px;
   line-height: 1.11;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .item-third-section {
