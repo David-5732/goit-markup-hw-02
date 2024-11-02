@@ -27,7 +27,6 @@ a {
 
 .header-logo .logo-parti {
   color: #2e2f42;
-  line-height: 1.17;
 }
 
 .nav-link {
@@ -59,19 +58,19 @@ a {
   color: #404bbf;
 }
 
+/* 1 section */
+
 .section-first {
   background-color: #2e2f42;
 }
 
-/* 1 section */
-
 .title-first-section {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
 }
 
 h1 {
