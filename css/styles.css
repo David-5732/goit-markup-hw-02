@@ -1,23 +1,33 @@
 body {
   font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
 }
 .header .web {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17px;
   letter-spacing: 0.03em;
   text-align: left;
   color: #4d5ae5;
+  text-transform: uppercase;
 }
 .header .studio {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17px;
   letter-spacing: 0.03em;
   text-align: left;
   color: #2e2f42;
+  text-transform: uppercase;
+}
+.header .web:hover,
+.header .web:focus,
+.header .studio:hover,
+.header .studio:hover {
+  color: #404bbf;
 }
 .list .link {
   font-family: Roboto;
@@ -29,13 +39,20 @@ body {
   color: #2e2f42;
 }
 .adress-link {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
   color: #434455;
+}
+.adress-link:hover,
+.adess-link:focus {
+  color: #404bbf;
+}
+.adress {
+  font-style: normal;
 }
 .section-first {
   background-color: #2e2f42;
@@ -50,18 +67,11 @@ body {
   color: #ffffff;
 }
 .button {
-  width: Hug (169px) px;
-  height: Hug (56px) px;
-  top: 428px;
-  left: 636px;
-  padding: 16px 32px 16px 32px;
-  gap: 10px;
-  border-radius: 4px 0px 0px 0px;
   opacity: 0px;
   background-color: #4d5ae5;
 }
 .button-title {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -90,14 +100,16 @@ body {
 .section-third {
   background-color: #f4f4fd;
 }
+
 .section-third .title {
   font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.11px;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .section-third .text {
   font-family: Roboto;
