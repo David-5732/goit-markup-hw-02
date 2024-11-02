@@ -27,6 +27,7 @@ a {
 
 .header-logo .logo-parti {
   color: #2e2f42;
+  line-height: 1.17;
 }
 
 .nav-link {
@@ -67,7 +68,7 @@ a {
 .title-first-section {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -77,13 +78,11 @@ h1 {
 }
 
 .button-first-section {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
 }
 
 .button-first-section:hover,
 .button-first-section:focus {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #404bbf;
 }
 
@@ -92,33 +91,35 @@ h1 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: #ffffff;
+  cursor: pointer;
 }
 /* 2 section */
 
 .title-second-section {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .text-second-section {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #434455;
-}
+  color: #2e2f42;
 
 h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .section-third {
@@ -130,6 +131,13 @@ h2 {
 }
 
 /* section 4 */
+
+.title-section-fourth {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
 
 .item-section-fourth {
   background-color: #fff;
@@ -176,8 +184,4 @@ h2 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-}
-
-.div-footer:hover,
-.div-footer:focus {
 }
