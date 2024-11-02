@@ -116,7 +116,7 @@ h1 {
   background-color: #f4f4fd;
 }
 
-.title-third-section {
+.title-section-third {
   font-size: 36px;
   line-height: 1.11;
   font-weight: 700;
@@ -159,6 +159,7 @@ h1 {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .list-fourth-section .item-section-fourth {
