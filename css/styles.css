@@ -15,7 +15,7 @@ a {
   text-decoration: none;
 }
 
-.logo {
+.webstudio {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -25,7 +25,7 @@ a {
   color: #4d5ae5;
 }
 
-.header-logo .logo-parti {
+.header-studio {
   color: #2e2f42;
 }
 
@@ -104,7 +104,6 @@ h1 {
 }
 
 .text-second-section {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -147,10 +146,6 @@ h1 {
 }
 
 /* section 4 */
-
-.section-fourth {
-  background-color: #f4f4fd;
-}
 
 .title-section-fourth {
   font-weight: 700;
